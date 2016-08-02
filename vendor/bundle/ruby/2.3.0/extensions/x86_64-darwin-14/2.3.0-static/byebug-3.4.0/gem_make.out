@@ -1,0 +1,19 @@
+current directory: /Users/matsudachikara/workspace/rails_repositories/sample_app/vendor/bundle/ruby/2.3.0/gems/byebug-3.4.0/ext/byebug
+/Users/matsudachikara/.rbenv/versions/2.3.0/bin/ruby -r ./siteconf20160802-40834-e42r9s.rb extconf.rb
+creating Makefile
+
+current directory: /Users/matsudachikara/workspace/rails_repositories/sample_app/vendor/bundle/ruby/2.3.0/gems/byebug-3.4.0/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /Users/matsudachikara/workspace/rails_repositories/sample_app/vendor/bundle/ruby/2.3.0/gems/byebug-3.4.0/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.bundle
+
+current directory: /Users/matsudachikara/workspace/rails_repositories/sample_app/vendor/bundle/ruby/2.3.0/gems/byebug-3.4.0/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.bundle ./.gem.20160802-40834-1acq2wk/byebug
