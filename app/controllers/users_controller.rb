@@ -5,7 +5,7 @@ class UsersController < ApplicationController
   def new
     @user = User.new
   end
-  
+
   def index
     @users = User.paginate(page: params[:page])
   end
@@ -14,12 +14,12 @@ class UsersController < ApplicationController
     @user = User.find(params[:id])
     # debugger
   end
-  
+
   def create
     @user = User.new(user_params)
     if @user.save
       # success
-      UserMailer.account_activation(@user).deliver_now
+      @user.send_activation_email
       flash[:info] = "Please check your email to activate your account."
       redirect_to root_url
     else
@@ -47,7 +47,7 @@ class UsersController < ApplicationController
     logger.debug(users_url)
     redirect_to users_url
   end
-  
+
   def user_params
     params.require(:user).permit(:name,
                                  :email,
