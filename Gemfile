@@ -34,7 +34,6 @@ group :test do
   gem "minitest-doc_reporter"
   gem 'mini_backtrace',     '0.1.3'
   gem 'guard-minitest',     '2.3.1'
-  gem 'faker', '~> 1.1.2'
   gem 'capybara', '~> 2.1.0'
   gem 'database_cleaner', '~> 1.0.1'
   gem 'launchy', '~> 2.3.0'
