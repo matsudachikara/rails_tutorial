@@ -1,0 +1,19 @@
+# Created by .ignore support plugin (hsz.mobi)
+.bundle/
+.gitignore
+.idea/.generators
+.idea/.rakeTasks
+.idea/dataSources.local.xml
+.idea/dataSources/
+.idea/misc.xml
+.idea/modules.xml
+.idea/sample_app.iml
+.idea/workspace.xml
+.rspec
+app/views/account_activations/
+log/development.log
+log/test.log
+public/uploads/
+spec/
+tmp/
+vendor/bundle/
